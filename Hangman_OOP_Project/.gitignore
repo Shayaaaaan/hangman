@@ -1,0 +1,6 @@
+Hangman
+MAIN
+*.o
+*.exe
+hangman_scores.txt
+.DS_Store
