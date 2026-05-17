@@ -1,4 +1,4 @@
-HANGMAN — 
+HANGMAN — Individual OOP Game (CSC-213)
 ========================================
 
 Author: Shayaan
@@ -31,3 +31,16 @@ HOW TO PLAY
 - Win: guess every letter. Score = word length x 10.
 - Optional: save your score to hangman_scores.txt.
 
+OOP FOR VIVA
+------------
+Inheritance:   HangmanGame : public Game
+Override:      void play()
+Composition:   WordBank bank, ScoreBoard leaderboard
+Encapsulation: private helper methods in HangmanGame
+File I/O:      words.txt in, hangman_scores.txt out
+Polymorphism:  (later in full GameHub) vector<unique_ptr<Game>> and Game*->play()
+
+GITHUB (deadline 16 May)
+------------------------
+Upload this folder's .h, .cpp, words.txt, and readme.txt to your GitHub.
+Share the link on Classroom so classmates can integrate your game.
